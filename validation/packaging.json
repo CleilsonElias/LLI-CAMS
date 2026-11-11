@@ -1,0 +1,7 @@
+{
+  "build": "passed",
+  "isolated_target_install": "passed",
+  "fresh_database_initialization_from_wheel": "passed",
+  "wheel": "llicams_reference-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "e127e8f8d8eeecf49d1bd649cbe6d0c5d9230ae23c4cd81ac5bcf0227b19959d"
+}

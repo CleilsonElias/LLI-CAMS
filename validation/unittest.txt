@@ -1,0 +1,50 @@
+test_http_observe_sleep_query_export (test_application.ApplicationTests.test_http_observe_sleep_query_export) ... ok
+test_rejects_cross_origin_writes (test_application.ApplicationTests.test_rejects_cross_origin_writes) ... ok
+test_rejects_invalid_json_fields (test_application.ApplicationTests.test_rejects_invalid_json_fields) ... ok
+test_rejects_wrong_content_type (test_application.ApplicationTests.test_rejects_wrong_content_type) ... ok
+test_serves_offline_ui_without_external_dependencies (test_application.ApplicationTests.test_serves_offline_ui_without_external_dependencies) ... ok
+test_automatic_sleep_consolidates_pending (test_application.BackendTests.test_automatic_sleep_consolidates_pending) ... ok
+test_backup_and_forget_preserve_integrity (test_application.BackendTests.test_backup_and_forget_preserve_integrity) ... ok
+test_benchmark_is_deterministic_and_evaluates_answers (test_application.BackendTests.test_benchmark_is_deterministic_and_evaluates_answers) ... ok
+test_cli_round_trip (test_application.BackendTests.test_cli_round_trip) ... ok
+test_ollama_protocol_against_local_http_fixture (test_application.BackendTests.test_ollama_protocol_against_local_http_fixture) ... ok
+test_optional_bearer_token_is_enforced (test_application.BackendTests.test_optional_bearer_token_is_enforced) ... ok
+test_rem_invalid_critic_response_stays_unverified (test_application.BackendTests.test_rem_invalid_critic_response_stays_unverified) ... ok
+test_remote_bind_requires_explicit_token (test_application.BackendTests.test_remote_bind_requires_explicit_token) ... ok
+test_real_tiny_transformer_replay_fusion_and_loading (test_application.OptionalBackendsTests.test_real_tiny_transformer_replay_fusion_and_loading) ... skipped 'optional torch/transformers/peft not installed'
+test_semantic_backend_encodes_normalized_text (test_application.OptionalBackendsTests.test_semantic_backend_encodes_normalized_text) ... skipped 'optional sentence encoder/model not configured'
+test_observation_during_sleep_is_not_lost (test_engine.ConcurrencyTests.test_observation_during_sleep_is_not_lost) ... ok
+test_preparation_failure_leaves_state_unchanged (test_engine.ConcurrencyTests.test_preparation_failure_leaves_state_unchanged) ... ok
+test_stale_candidate_cannot_overwrite_other_engine (test_engine.ConcurrencyTests.test_stale_candidate_cannot_overwrite_other_engine) ... ok
+test_exact_index_order (test_engine.EncoderAndIndexTests.test_exact_index_order) ... ok
+test_hnsw_matches_exact_for_known_nearest (test_engine.EncoderAndIndexTests.test_hnsw_matches_exact_for_known_nearest) ... skipped 'optional hnswlib not installed'
+test_stable_hash_and_accents (test_engine.EncoderAndIndexTests.test_stable_hash_and_accents) ... ok
+test_direction_only_is_not_fabricated_into_context (test_engine.MemoryTests.test_direction_only_is_not_fabricated_into_context) ... ok
+test_direction_only_purges_text_and_metadata (test_engine.MemoryTests.test_direction_only_purges_text_and_metadata) ... ok
+test_endogenous_is_read_only (test_engine.MemoryTests.test_endogenous_is_read_only) ... ok
+test_epsilon_does_not_change_resonance (test_engine.MemoryTests.test_epsilon_does_not_change_resonance) ... ok
+test_explicit_promotion_preserves_pending (test_engine.MemoryTests.test_explicit_promotion_preserves_pending) ... ok
+test_identity_checks_on_reopen (test_engine.MemoryTests.test_identity_checks_on_reopen) ... ok
+test_invalid_inputs (test_engine.MemoryTests.test_invalid_inputs) ... ok
+test_low_urgency_cannot_resurrect (test_engine.MemoryTests.test_low_urgency_cannot_resurrect) ... ok
+test_paper_score_can_select_uniform_noise (test_engine.MemoryTests.test_paper_score_can_select_uniform_noise) ... ok
+test_pending_and_payload_limits (test_engine.MemoryTests.test_pending_and_payload_limits) ... ok
+test_pending_visible_before_sleep (test_engine.MemoryTests.test_pending_visible_before_sleep) ... ok
+test_pin_and_graph_degree_cap (test_engine.MemoryTests.test_pin_and_graph_degree_cap) ... ok
+test_pointer_shadow_keeps_evidence (test_engine.MemoryTests.test_pointer_shadow_keeps_evidence) ... ok
+test_structural_rem_conflicts_are_unverified (test_engine.MemoryTests.test_structural_rem_conflicts_are_unverified) ... ok
+test_three_regimes_and_explicit_skipped_replay (test_engine.MemoryTests.test_three_regimes_and_explicit_skipped_replay) ... ok
+test_config_validation_and_monotone_threshold (test_math.MathematicsTests.test_config_validation_and_monotone_threshold) ... ok
+test_invalid_probabilities (test_math.MathematicsTests.test_invalid_probabilities) ... ok
+test_invalid_vectors (test_math.MathematicsTests.test_invalid_vectors) ... ok
+test_known_values_and_bound (test_math.MathematicsTests.test_known_values_and_bound) ... ok
+test_linear_lora_really_learns (test_math.MathematicsTests.test_linear_lora_really_learns) ... ok
+test_original_equation_matches_explicit_double_sum (test_math.MathematicsTests.test_original_equation_matches_explicit_double_sum) ... ok
+test_projection_with_dependent_basis (test_math.MathematicsTests.test_projection_with_dependent_basis) ... ok
+test_rank_compression_measures_loss (test_math.MathematicsTests.test_rank_compression_measures_loss) ... ok
+test_sigmoid_and_cold_start (test_math.MathematicsTests.test_sigmoid_and_cold_start) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 4.748s
+
+OK (skipped=3)

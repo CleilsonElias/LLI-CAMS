@@ -1,0 +1,41 @@
+{
+  "software": "llicams-reference",
+  "version": "0.1.0",
+  "release_date": "2026-11-11",
+  "run_utc": "2026-11-11T09:20:55.333211+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "torch": null,
+    "transformers": null,
+    "peft": null,
+    "sentence-transformers": null,
+    "hnswlib": null
+  },
+  "tests_run": 45,
+  "passed": 42,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    {
+      "test": "test_real_tiny_transformer_replay_fusion_and_loading (test_application.OptionalBackendsTests.test_real_tiny_transformer_replay_fusion_and_loading)",
+      "reason": "optional torch/transformers/peft not installed"
+    },
+    {
+      "test": "test_semantic_backend_encodes_normalized_text (test_application.OptionalBackendsTests.test_semantic_backend_encodes_normalized_text)",
+      "reason": "optional sentence encoder/model not configured"
+    },
+    {
+      "test": "test_hnsw_matches_exact_for_known_nearest (test_engine.EncoderAndIndexTests.test_hnsw_matches_exact_for_known_nearest)",
+      "reason": "optional hnswlib not installed"
+    }
+  ],
+  "success": true,
+  "tiny_random_transformer_training_executed": false,
+  "pretrained_language_model_performance_evaluated": false,
+  "ollama_real_model_executed": false,
+  "browser_visual_check": "not completed in delivery environment; HTTP/application routes were executed",
+  "wheel_build_and_isolated_target_install": "passed",
+  "packaging_smoke": "initialized a fresh database from installed wheel outside the source directory"
+}

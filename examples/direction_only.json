@@ -1,0 +1,7 @@
+{
+  "shadow_mode": "direction_only",
+  "consolidation_min": 0.55,
+  "consolidation_max": 0.90,
+  "lambda_li": 0.5,
+  "shadow_threshold": 0.20
+}

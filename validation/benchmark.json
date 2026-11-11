@@ -1,0 +1,416 @@
+{
+  "benchmark": "synthetic-delayed-code-retrieval-v1",
+  "seeds": 5,
+  "observations_per_seed": 160,
+  "queries_per_seed": 48,
+  "capacity": {
+    "active_items": 24,
+    "shadow_items": 48
+  },
+  "limitations": [
+    "Supplied synthetic vectors, not a natural-language semantic benchmark",
+    "Equal item caps; total bytes are reported and are not equalized",
+    "No transformer training, consciousness measure or creativity assessment",
+    "Queries sampled independently of H_R; identifiers are used only for evaluation"
+  ],
+  "summary": [
+    {
+      "condition": "paper",
+      "mean_accuracy": 0.31666666666666665,
+      "std_across_seeds": 0.06488504792665599,
+      "runs": 5
+    },
+    {
+      "condition": "paper_no_urgency",
+      "mean_accuracy": 0.3208333333333333,
+      "std_across_seeds": 0.060020251212033054,
+      "runs": 5
+    },
+    {
+      "condition": "anchored",
+      "mean_accuracy": 0.3041666666666667,
+      "std_across_seeds": 0.05229125165837973,
+      "runs": 5
+    },
+    {
+      "condition": "recency",
+      "mean_accuracy": 0.4666666666666666,
+      "std_across_seeds": 0.06686169389950507,
+      "runs": 5
+    },
+    {
+      "condition": "random",
+      "mean_accuracy": 0.4416666666666667,
+      "std_across_seeds": 0.03423265984407289,
+      "runs": 5
+    },
+    {
+      "condition": "direction_only",
+      "mean_accuracy": 0.0,
+      "std_across_seeds": 0.0,
+      "runs": 5
+    }
+  ],
+  "runs": [
+    {
+      "condition": "paper",
+      "seed": 0,
+      "correct": 12,
+      "queries": 48,
+      "accuracy": 0.25,
+      "shadow_hits": 12,
+      "active": 2,
+      "shadows": 48,
+      "text_bytes": 2650,
+      "vector_bytes": 4800
+    },
+    {
+      "condition": "paper_no_urgency",
+      "seed": 0,
+      "correct": 13,
+      "queries": 48,
+      "accuracy": 0.2708333333333333,
+      "shadow_hits": 48,
+      "active": 2,
+      "shadows": 48,
+      "text_bytes": 2650,
+      "vector_bytes": 4800
+    },
+    {
+      "condition": "anchored",
+      "seed": 0,
+      "correct": 12,
+      "queries": 48,
+      "accuracy": 0.25,
+      "shadow_hits": 36,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "recency",
+      "seed": 0,
+      "correct": 21,
+      "queries": 48,
+      "accuracy": 0.4375,
+      "shadow_hits": 24,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "random",
+      "seed": 0,
+      "correct": 19,
+      "queries": 48,
+      "accuracy": 0.3958333333333333,
+      "shadow_hits": 33,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "direction_only",
+      "seed": 0,
+      "correct": 0,
+      "queries": 48,
+      "accuracy": 0.0,
+      "shadow_hits": 12,
+      "active": 2,
+      "shadows": 48,
+      "text_bytes": 106,
+      "vector_bytes": 4800
+    },
+    {
+      "condition": "paper",
+      "seed": 1,
+      "correct": 17,
+      "queries": 48,
+      "accuracy": 0.3541666666666667,
+      "shadow_hits": 32,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "paper_no_urgency",
+      "seed": 1,
+      "correct": 17,
+      "queries": 48,
+      "accuracy": 0.3541666666666667,
+      "shadow_hits": 48,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "anchored",
+      "seed": 1,
+      "correct": 17,
+      "queries": 48,
+      "accuracy": 0.3541666666666667,
+      "shadow_hits": 32,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "recency",
+      "seed": 1,
+      "correct": 22,
+      "queries": 48,
+      "accuracy": 0.4583333333333333,
+      "shadow_hits": 30,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "random",
+      "seed": 1,
+      "correct": 23,
+      "queries": 48,
+      "accuracy": 0.4791666666666667,
+      "shadow_hits": 31,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "direction_only",
+      "seed": 1,
+      "correct": 0,
+      "queries": 48,
+      "accuracy": 0.0,
+      "shadow_hits": 32,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 0,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "paper",
+      "seed": 2,
+      "correct": 12,
+      "queries": 48,
+      "accuracy": 0.25,
+      "shadow_hits": 15,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 2597,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "paper_no_urgency",
+      "seed": 2,
+      "correct": 12,
+      "queries": 48,
+      "accuracy": 0.25,
+      "shadow_hits": 48,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 2597,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "anchored",
+      "seed": 2,
+      "correct": 12,
+      "queries": 48,
+      "accuracy": 0.25,
+      "shadow_hits": 30,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "recency",
+      "seed": 2,
+      "correct": 28,
+      "queries": 48,
+      "accuracy": 0.5833333333333334,
+      "shadow_hits": 29,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "random",
+      "seed": 2,
+      "correct": 22,
+      "queries": 48,
+      "accuracy": 0.4583333333333333,
+      "shadow_hits": 28,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "direction_only",
+      "seed": 2,
+      "correct": 0,
+      "queries": 48,
+      "accuracy": 0.0,
+      "shadow_hits": 15,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 53,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "paper",
+      "seed": 3,
+      "correct": 16,
+      "queries": 48,
+      "accuracy": 0.3333333333333333,
+      "shadow_hits": 17,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 2597,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "paper_no_urgency",
+      "seed": 3,
+      "correct": 16,
+      "queries": 48,
+      "accuracy": 0.3333333333333333,
+      "shadow_hits": 48,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 2597,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "anchored",
+      "seed": 3,
+      "correct": 15,
+      "queries": 48,
+      "accuracy": 0.3125,
+      "shadow_hits": 32,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "recency",
+      "seed": 3,
+      "correct": 21,
+      "queries": 48,
+      "accuracy": 0.4375,
+      "shadow_hits": 28,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "random",
+      "seed": 3,
+      "correct": 20,
+      "queries": 48,
+      "accuracy": 0.4166666666666667,
+      "shadow_hits": 35,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "direction_only",
+      "seed": 3,
+      "correct": 0,
+      "queries": 48,
+      "accuracy": 0.0,
+      "shadow_hits": 17,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 53,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "paper",
+      "seed": 4,
+      "correct": 19,
+      "queries": 48,
+      "accuracy": 0.3958333333333333,
+      "shadow_hits": 23,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 2597,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "paper_no_urgency",
+      "seed": 4,
+      "correct": 19,
+      "queries": 48,
+      "accuracy": 0.3958333333333333,
+      "shadow_hits": 48,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 2597,
+      "vector_bytes": 4704
+    },
+    {
+      "condition": "anchored",
+      "seed": 4,
+      "correct": 17,
+      "queries": 48,
+      "accuracy": 0.3541666666666667,
+      "shadow_hits": 34,
+      "active": 0,
+      "shadows": 48,
+      "text_bytes": 2544,
+      "vector_bytes": 4608
+    },
+    {
+      "condition": "recency",
+      "seed": 4,
+      "correct": 20,
+      "queries": 48,
+      "accuracy": 0.4166666666666667,
+      "shadow_hits": 32,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "random",
+      "seed": 4,
+      "correct": 22,
+      "queries": 48,
+      "accuracy": 0.4583333333333333,
+      "shadow_hits": 29,
+      "active": 24,
+      "shadows": 48,
+      "text_bytes": 3816,
+      "vector_bytes": 6912
+    },
+    {
+      "condition": "direction_only",
+      "seed": 4,
+      "correct": 0,
+      "queries": 48,
+      "accuracy": 0.0,
+      "shadow_hits": 23,
+      "active": 1,
+      "shadows": 48,
+      "text_bytes": 53,
+      "vector_bytes": 4704
+    }
+  ]
+}

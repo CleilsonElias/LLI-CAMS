@@ -1,0 +1,7 @@
+{
+  "experiment": "linear_numpy_lora_not_transformer",
+  "first_loss": 0.0580324052303117,
+  "last_loss": 9.618297267693678e-32,
+  "orthogonal_inner_product": -5.551115123125783e-17,
+  "recompression_residual": 1.1921541231443786
+}

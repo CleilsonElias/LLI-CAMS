@@ -1,0 +1,216 @@
+{
+  "project": "LLI-CAMS Reference Implementation",
+  "version": "0.1.0",
+  "release_date": "2026-11-11",
+  "license": "MIT",
+  "files": {
+    ".github/workflows/tests.yml": {
+      "sha256": "a9a8b5346a45f4823dd927d29afa73e845ef10fba0ff2a622b1192513399068c",
+      "bytes": 494
+    },
+    ".gitignore": {
+      "sha256": "adb92ebd047fd8dd2c4ec5419c4c86143c1b7f54408264ed14f21cf986a8130a",
+      "bytes": 126
+    },
+    "CHANGELOG.md": {
+      "sha256": "d2bf7d5b47fcc778f6cb3845cd21146882950cba93f621d861f892ebc9804a5b",
+      "bytes": 716
+    },
+    "CITATION.cff": {
+      "sha256": "d80d49d28c709d1510a1252a4d16e8ab6c93b73f2243b4af8d2b25f0f5beedcb",
+      "bytes": 744
+    },
+    "LICENSE": {
+      "sha256": "d1ad9890c45a396f8981e4cbe76aca0b1de037ec1a392ea18257cbf17c4b8f96",
+      "bytes": 1080
+    },
+    "MANIFEST.in": {
+      "sha256": "160d39cdf1267a9025097ce6b36530937a90daf8fd7be4284545d4250c329056",
+      "bytes": 340
+    },
+    "NOTICE.md": {
+      "sha256": "58a497d444af236ba1cd65a27bead0a76dded542f88cee4866599abeeb740879",
+      "bytes": 1043
+    },
+    "README.md": {
+      "sha256": "31c0a63d1530524b619b90ddf0b3220522253ef7d9bbf1010070dca0b0c6f590",
+      "bytes": 8824
+    },
+    "dist/llicams_reference-0.1.0-py3-none-any.whl": {
+      "sha256": "e127e8f8d8eeecf49d1bd649cbe6d0c5d9230ae23c4cd81ac5bcf0227b19959d",
+      "bytes": 41176
+    },
+    "docs/API.md": {
+      "sha256": "cc24d7100a87bed47227ce6f2360c506a32b93c6d7f0cb1f19cdeae0543dc29b",
+      "bytes": 1901
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "87bfad724420e0182dbc995fbd65be63ccb2c9632b8278cdf49129be8466d099",
+      "bytes": 3877
+    },
+    "docs/FORMALISM.md": {
+      "sha256": "9a82b9752d29b074afdf7bff5cc1a276333be6e2b86aabfcd6faae143713832b",
+      "bytes": 7248
+    },
+    "docs/MODELS.md": {
+      "sha256": "3be893a8d866f04765c9deda0bf9c58949e12e18730c6326462b9e86aff19791",
+      "bytes": 4547
+    },
+    "docs/PUBLISHING.md": {
+      "sha256": "0199a81fc8d3b62e48a87e81a4661d0acfd429fd4fac50aed2d3cc09e924929a",
+      "bytes": 3288
+    },
+    "docs/VALIDATION.md": {
+      "sha256": "e8a237856cd7d2df65683ca473207e801b32ab8c8b6ab84800fba6a39bc736dc",
+      "bytes": 3526
+    },
+    "examples/direction_only.json": {
+      "sha256": "29ece025d50b514002554b8a398dafb9d780a749dacdcba1633a00c6753e9713",
+      "bytes": 144
+    },
+    "examples/linear_lora_demo.py": {
+      "sha256": "a3c975761b2ee579a02729f3b81e1b8bd68ac7c1449bfc7d216f5e9355f8136e",
+      "bytes": 807
+    },
+    "examples/minimal.py": {
+      "sha256": "1df1f42540728918ea65b8774cff55676ea6f78d2d5faccd3388a58a41f8e00b",
+      "bytes": 370
+    },
+    "examples/observations.jsonl": {
+      "sha256": "1baa019aa08414cc425d0d368df0e40f5366c2100602f73af70acc5cfff2e9d9",
+      "bytes": 635
+    },
+    "pyproject.toml": {
+      "sha256": "a8ca963458b27097e340d2576660dc310a1ce1705aa31934db15f6a68d30b11a",
+      "bytes": 894
+    },
+    "requirements-core.txt": {
+      "sha256": "99f43573522565d7c480efd1f954892948033915df6a4e685327e995d3396eb6",
+      "bytes": 15
+    },
+    "run_llicams.py": {
+      "sha256": "dbd0fd4b2959e7db97de313d39a50a2a9447f6e3db25891d7bc9cdd375211454",
+      "bytes": 274
+    },
+    "scripts/validate_release.py": {
+      "sha256": "bdccead3ac7ecc0c2feb70e577c52388977c6bb20d51d1adc29a7444dca20098",
+      "bytes": 5008
+    },
+    "scripts/verify_release.py": {
+      "sha256": "1ae998a3629eeed0af40f9857127c08d8fdc2a288b5f052e64d6e1d33da60d22",
+      "bytes": 815
+    },
+    "src/llicams/__init__.py": {
+      "sha256": "083547e0919a612657af6ef56fa832e7db889fe18d7bfcafa4e0ac46874043d3",
+      "bytes": 209
+    },
+    "src/llicams/__main__.py": {
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    "src/llicams/benchmark.py": {
+      "sha256": "aa633b83e707bc92ecdfa9a8f149816762353af791a4987fc0036d8e78c9d226",
+      "bytes": 4530
+    },
+    "src/llicams/cli.py": {
+      "sha256": "613bc7ec09c9b4fda6855823f53eb38c6f4918b486672c3d4db1d86463ca9f23",
+      "bytes": 8997
+    },
+    "src/llicams/config.py": {
+      "sha256": "97b1cdd9d91c564aea192563a3ae8c9720cef64b5158ccd85adb514840599cbc",
+      "bytes": 4293
+    },
+    "src/llicams/demo.py": {
+      "sha256": "c5530054b97b8be78a718da528b69ffb3d433629a8bc1ce965c7fabf144a51d7",
+      "bytes": 2410
+    },
+    "src/llicams/encoders.py": {
+      "sha256": "e30dd020e1cc4d6ed880acbd93c1d93baa1ffc050f82ad95204aa6c01df771cc",
+      "bytes": 2438
+    },
+    "src/llicams/engine.py": {
+      "sha256": "8f316fea324f13d8a7c5f74f61281ffb2eafebcdf3c8a7465f72867c3c6545d5",
+      "bytes": 11036
+    },
+    "src/llicams/index.py": {
+      "sha256": "1ec4ee293b2313a805afdf097c945f11b1b8aeac1ca5f29cf91fc06407c962f5",
+      "bytes": 1679
+    },
+    "src/llicams/llm.py": {
+      "sha256": "6d57da94df3200718af8638ea261ed6136db8db246a59df27db938added61dd4",
+      "bytes": 8061
+    },
+    "src/llicams/math.py": {
+      "sha256": "967e12fb5fd1ba2f60b2a3b36d385b584d20b18d396d5e72379a43d442165a60",
+      "bytes": 4895
+    },
+    "src/llicams/replay.py": {
+      "sha256": "6d66ac798b0b4f2cd08223bac4ddc636c4d897da8d1efc0e7a2e1e728479a699",
+      "bytes": 7259
+    },
+    "src/llicams/service.py": {
+      "sha256": "5a4400e061d0aa9dd68487d12e43253717b88089ed6f02f8e523975f8751e3b8",
+      "bytes": 8158
+    },
+    "src/llicams/sleep.py": {
+      "sha256": "ced9cf38009ff4f322a2471d400cb97f9fb3287b746d04c590fdf11a3e93bb3c",
+      "bytes": 7389
+    },
+    "src/llicams/storage.py": {
+      "sha256": "d14081b1d178eee8d9f8e5e92c3b71655c59485a8e034a129b686e85424a2e7d",
+      "bytes": 8888
+    },
+    "src/llicams/types.py": {
+      "sha256": "0352583974c87bd3375f9eb98702c25a73ae35197b92d9cdf38988ecddc11916",
+      "bytes": 1333
+    },
+    "src/llicams/ui.html": {
+      "sha256": "43664188180598dc9aa82ffdae5705e35e11fce2bc97513beaeadf7a95f3f347",
+      "bytes": 8390
+    },
+    "tests/test_application.py": {
+      "sha256": "ad508b7b158fc56f74ef6d2026e3efb3dc40ab1c7839d9d15407ca40f85c78ad",
+      "bytes": 11772
+    },
+    "tests/test_engine.py": {
+      "sha256": "f3a092cd6e2a98451675fc4f1a502e80cb0cbad935929cbd7b3d6677607fc4e0",
+      "bytes": 11930
+    },
+    "tests/test_math.py": {
+      "sha256": "08f5fa8adff9294279f510446367d39c6c9c07e0eca265823c6804a79d1b6cd7",
+      "bytes": 3345
+    },
+    "validation/DELIVERY_NOTES.md": {
+      "sha256": "5d325ab3d02bf3867d101faace7d9601598f2b6d54beac8e7b96cb5c2e5b9650",
+      "bytes": 1111
+    },
+    "validation/SUMMARY.md": {
+      "sha256": "7eff7457952fdfe03b2003c71f6fce1909ed29fb1a525222be1e394f06478ab6",
+      "bytes": 976
+    },
+    "validation/benchmark.json": {
+      "sha256": "f61db5c2a3bbb616951558799c8fa71fd370dbb9a94635a3540ec68239e6d91a",
+      "bytes": 9071
+    },
+    "validation/linear_lora.json": {
+      "sha256": "3ad227741b853282b823f1448388d93f20ba5fa2027794549c9bc14145fc06fe",
+      "bytes": 232
+    },
+    "validation/packaging.json": {
+      "sha256": "555b356c4089452c560ba15d1f1feec9190d21f781db67fba97075d787a13b01",
+      "bytes": 260
+    },
+    "validation/requirements-tested.txt": {
+      "sha256": "240293b8306050a37d1ef087614079541213a3a1930b120b6bb34eb360505779",
+      "bytes": 30
+    },
+    "validation/unittest.txt": {
+      "sha256": "5775739e7c87cb4da0c48e33730f5752b641b9969ff67e5200f362079483724c",
+      "bytes": 5377
+    },
+    "validation/validation.json": {
+      "sha256": "13e9ba5cb17b7e133b7641245be678755d3c3a1608fac631d643e8bd7a961f9f",
+      "bytes": 1542
+    }
+  }
+}
