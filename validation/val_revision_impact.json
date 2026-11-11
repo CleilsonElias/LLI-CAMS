@@ -1,0 +1,33 @@
+{
+  "python": "3.12.14",
+  "calms_patch": "0.1.1",
+  "status": "passed",
+  "ordinary_rank_configurations_identical": 1323,
+  "ordinary_gate_configurations_identical": 63,
+  "calms_tests": {
+    "discovered": 46,
+    "passed": 44,
+    "skipped": 2,
+    "failed": 0
+  },
+  "lli_tests": {
+    "discovered": 45,
+    "passed": 42,
+    "skipped": 3,
+    "failed": 0
+  },
+  "val_tests": {
+    "passed": 44,
+    "failed": 0
+  },
+  "frozen_study_checks": 6,
+  "original_references": {
+    "LLI-CAMS": "31cfe2f6c5720f2f24fe14c3fbfdee2b8cef190a",
+    "CALMS-SAVANT": "05c080fac6796ab57253167722f3cfe4c47d1613"
+  },
+  "not_executed": [
+    "optional transformer training",
+    "database integration across projects",
+    "new real corpus or biological tests"
+  ]
+}
