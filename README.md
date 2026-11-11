@@ -2,6 +2,12 @@
 
 **Versão 0.1.0 — implementação executável de referência para pesquisa.**
 
+A [auditoria da revisão VAL](docs/VAL_REVISION_IMPACT.md) verificou este código.
+Não foi necessária alteração de execução: as sombras LLI têm regras próprias
+para não representantes e demissões. λ não deve ser convertido automaticamente
+em parâmetros VAL/CALMS; contagens e indicadores de recuperação não são medidas
+de consciência ou criatividade.
+
 Este repositório implementa uma aplicação local de memória seletiva baseada em
 LLI-CAMS: grafo ativo, arquivo de sombras, seleção por entropia relacional,
 recuperação por ressonância, ciclo offline e publicação atômica de estado.

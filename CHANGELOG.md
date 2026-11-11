@@ -1,5 +1,10 @@
 # Changelog
 
+## Documentation - 2026-11-11
+
+Added the cross-project VAL revision audit. Runtime, schema and software version
+remain 0.1.0; no shadow admission rule was transplanted from VAL.
+
 ## 0.1.0 — 2026-11-11
 
 - Núcleo de memória ativa/latente com persistência SQLite.
